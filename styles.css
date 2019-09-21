@@ -50,7 +50,7 @@ hr{
     max-width: 750px;
 }
 
-footer a:link, a:visited {
+footer a:link, footer a:visited {
     color:blanchedalmond;
 }
 
