@@ -1,22 +1,28 @@
 
-h1{
+header{
     background-color: rebeccapurple;
     color: blanchedalmond;
     border-radius: 25px;
-    padding: 20px;
     height: 80px;
-    width: 750px;
     text-align: center;
-    vertical-align: middle;
-    font-weight: normal;
+}
 
+h1 {
+    font-weight: normal;
 }
 
 img{
   height:250px;
   float: right;
-  margin-right:500px;
-  margin-top: 10px;
+  margin: 20px;
+
+}
+
+header, main, footer {
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width:  750px;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2{
@@ -27,28 +33,21 @@ h2{
   font-weight: normal;
 }
 
-body{
-    font-family: 'roboto', sans-serif;
-
-}
 
 
 footer{
     background-color: rebeccapurple;
     color: blanchedalmond;
     border-radius: 25px;
-    padding: 20px;
     height: 50px;
-    width: 750px;
     text-align: center;
-    vertical-align: middle;
-    margin-top:35px;
 
 
 }
 
 hr{
     margin-top:-15px;
+    max-width: 750px;
 }
 
 footer a:link{
