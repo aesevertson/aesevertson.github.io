@@ -32,6 +32,7 @@ header, main, footer {
     padding: 1rem;
     max-width:  750px;
     font-family: 'Quicksand', sans-serif;
+    height:auto;
 }
 
 
