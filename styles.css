@@ -1,4 +1,8 @@
-
+body{
+    line-height: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+}
 header{
     background-color: rebeccapurple;
     color: blanchedalmond;
@@ -13,18 +17,12 @@ h1 {
     font-size:1.5em;
 }
 
-img{
-  height:250px;
-  margin: 20px;
-  box-shadow: 5px 10px;
-
-}
 
 header, main, footer {
     margin: 1rem auto;
     padding: 1rem;
     max-width:  750px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Qiuicksand', sans-serif;
 }
 
 h2{

@@ -1,3 +1,4 @@
-window.onload = function() {
-    document.getElementById("lastmodified").innerHTML=document.lastModified;
-}
+document.getElementById('lastupdated').textContent = document.lastModified;
+
+var date = new Date().getFullYear();
+document.getElementById("year").innerHTML = date;
