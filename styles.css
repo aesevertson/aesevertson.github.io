@@ -10,6 +10,7 @@ header{
 h1 {
     font-weight: normal;
     font-family: 'Quicksand', sans-serif;
+    font-size:1.5em;
 }
 
 img{
@@ -33,6 +34,7 @@ h2{
   align-items: center;
   font-weight: normal;
   font-family:'Quicksand', sans-serif;
+  font-size:.5em;
 }
 
 
@@ -47,10 +49,6 @@ footer{
 
 }
 
-hr{
-    margin-top:-15px;
-    max-width: 750px;
-}
 
 footer a:link, footer a:visited {
     color:blanchedalmond;
