@@ -1,0 +1,53 @@
+header{
+    background-color: rebeccapurple;
+    color: blanchedalmond;
+    border-radius: 25px;
+    height: 80px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+}
+
+img{
+  height:250px;
+  float: right;
+  margin: 20px;
+  box-shadow: 5px 10px;
+
+}
+
+header, main, footer {
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width:  750px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+footer{
+    background-color: rebeccapurple;
+    color: blanchedalmond;
+    border-radius: 25px;
+    height: 50px;
+    text-align: center;
+
+
+}
+
+hr{
+    margin-top:-15px;
+    max-width: 750px;
+}
+
+footer a:link, footer a:visited {
+    color:blanchedalmond;
+}
+
+#lastmodified{
+    color: white;
+    margin-top:-5px;
+}
