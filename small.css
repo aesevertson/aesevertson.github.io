@@ -30,7 +30,12 @@ h2{
   font-size:.5em;
 }
 
-
+img{
+    height:250px;
+    margin: 20px;
+    box-shadow: 5px 10px;
+    float: right;
+  }
 
 footer{
     background-color: rebeccapurple;
