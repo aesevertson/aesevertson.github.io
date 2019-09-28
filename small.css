@@ -1,16 +1,7 @@
-header{
+header, footer{
     background-color: rebeccapurple;
     color: blanchedalmond;
     border-radius: 25px;
-    height: 80px;
-    text-align: center;
-}
-
-footer{
-    background-color: rebeccapurple;
-    color: blanchedalmond;
-    border-radius: 25px;
-    height: 80px;
     text-align: center;
 }
 
@@ -35,13 +26,12 @@ margin: 1em auto;
 align-items: center;
 font-weight: normal;
 font-family:'Quicksand', sans-serif;
+font-size: 1rem;
 }
 
 img{
     height: 250px;
     margin: 20px;
-    box-shadow: 5px 10px blanchedalmond;
-    float: right;
 }
 
 
