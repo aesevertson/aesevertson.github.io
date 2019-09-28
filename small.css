@@ -7,9 +7,9 @@ text-align: center;
 }
 
 h1{
-    font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.5rem;
+font-weight:bold;
+font-family: 'Quicksand', sans-serif;
+font-size: 1.5rem;
 }
 
 header, main, footer{
@@ -44,10 +44,11 @@ border-radius: 25px;
 height: 50px;
 text-align: center;
     }
-    
-footer a:link, footer a:visited{
-    color: blanchedalmond;
+
+footer a:link, footer a:visited{
+color: blanchedalmond;
 }
+
 
 #lastmodified{
     color: white;
