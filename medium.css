@@ -1,0 +1,19 @@
+@media only screen and (min-width: 32.5em){
+
+    img{
+        height:250px;
+        margin: 20px;
+        box-shadow: 5px 10px;
+      
+      }
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+
+}
