@@ -16,6 +16,10 @@ h4{
     font-family: 'Quicksand', sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 main {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -28,11 +32,10 @@ main section {
 	border: 1px solid #bbb;
 	padding: 0 1rem;
     background-color: #eee;
-    
 }
 
 section:nth-child(2) {
-	display: none;
+	display: block;
 	margin: 0.5rem;
 }
 
