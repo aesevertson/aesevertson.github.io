@@ -20,13 +20,13 @@ header, main, footer{
 
 
 h2{
-margin-top: 50px;
-line-height: .95em;
-margin: 1em auto;
-align-items: center;
-font-weight: normal;
-font-family:'Quicksand', sans-serif;
-font-size: 1rem;
+    margin-top: 50px;
+    line-height: 0.95em;
+    margin: 1em auto;
+    align-items: center;
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
 }
 
 img{
