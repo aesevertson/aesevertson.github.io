@@ -12,7 +12,12 @@
             grid-column: span 1;
         }
 
-        h1, h2, h3{
-            font-size: 2rem;
+        h1{
+            font-size: 1.75rem;
         }
+
+        h2{
+            font-size: 1.5rem;
+        }
+        
     }

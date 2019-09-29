@@ -6,11 +6,15 @@ header, footer{
     font-family: 'Quicksand', sans-serif;
 }
 
-h1, h2{
+h1{
     font-weight:bold;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.5rem;
+    font-size: .75rem;
     }
+
+h2{
+    font-size: .5rem;
+}
+
 h3{
     background-color: rebeccapurple;
     color: blanchedalmond;
