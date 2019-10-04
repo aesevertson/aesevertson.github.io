@@ -1,0 +1,107 @@
+header{
+    background-color: #A89FC4;
+    border-radius: 25px;
+}
+
+h1, h2{
+    font-family: "Quicksand", sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h3{
+    color: #3A3B38;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ nav ul{
+    font-family: "Quicksand", sans-serif;
+    background-color: #AAABAF;
+    border-radius: 25px;
+    list-style-type: none;
+
+}
+
+li a{
+    display: block;
+}
+
+nav ul a:link, nav ul a:visited{
+    color: black;
+}
+
+nav ul a:hover{
+    color: #823A32;
+}
+
+
+main{
+    background-color: whitesmoke;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+}
+
+footer{
+    background-color: #A89FC4;
+    color: whitesmoke;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    border-radius: 25px;
+}
+
+footer a:link, footer a:visited{
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#colornumber1{
+    background-color: #823A32;
+    color: white;
+}
+
+#colornumber2{
+    background-color: #AAABAF;
+    color: white;
+}
+
+#colornumber3{
+    background-color: #ADCCC8;
+    color: white;
+}
+
+#colornumber4{
+    background-color: #A89FC4;
+    color: white;
+}
+
+#colornumber5{
+    background-color: #3A3B38;
+    color: whitesmoke;
+}
