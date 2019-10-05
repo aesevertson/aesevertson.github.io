@@ -8,6 +8,7 @@ h1{
     color: #21174f;
     text-align: center;
     font-size: 1.5em;
+    padding-top:5px;
 }
 
 h2{
@@ -179,4 +180,8 @@ main section {
     color:#3A3B38;
     margin-bottom: 45px;
     margin-top: 15px;
+}
+
+html{
+    line-height: normal;
 }
