@@ -5,23 +5,25 @@ header{
 
 h1{
     font-family: "Quicksand", sans-serif;
-    color: whitesmoke;
+    color: #21174f;
     text-align: center;
+    font-size: 1.5em;
 }
 
 h2{
     font-family: "Quicksand", sans-serif;
-    color: whitesmoke;
+    color: #21174f;
     text-align: center;
-    font-size: 20px;
+    font-size: 1em;
     position: relative;
     padding-bottom: 30px;
 }
 
 h3{
-    color: #3A3B38;
+    color: #21174f;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.75em;
+    text-decoration: underline;
 }
 
 img{
@@ -30,37 +32,47 @@ img{
     margin-right: auto;
 }
 
- nav ul{
-    font-family: "Quicksand", sans-serif;
-    background-color: #AAABAF;
+nav {
+    background-color: #ADCCC8;
+    text-align: center;
+    font-family: "EB Garamond", serif;
     border-radius: 25px;
-    list-style-type: none;
-    padding: 20px;
-
 }
 
-li a{
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul a {
     display: block;
+    color: #3A3B38;
+    text-align: center;
+    padding: .75rem;
+    text-decoration: none;
+    font-size: .95rem;
+    font-weight: bold;
 }
 
 nav ul a:link, nav ul a:visited{
-    color: black;
+    color: #3A3B38;
 }
 
 nav ul a:hover{
-    color: #823A32;
+    color: #21174f;
 }
 
 
 body{
-    background-color: whitesmoke;
-    font-family: "Quicksand", sans-serif;
+    background-color: #d8d8da;
     text-align: center;
 }
 
 footer{
     background-color: #A89FC4;
-    color: whitesmoke;
+    color: #21174f;
     font-family: "Quicksand", sans-serif;
     text-align: center;
     border-radius: 25px;
@@ -68,51 +80,94 @@ footer{
 }
 
 footer a:link, footer a:visited{
-    color: whitesmoke;
+    color: #3A3B38;
+    font-family: "EB Garamond", serif;
 }
 
+footer a:hover{
+    color:#21174f;
+}
 
+main {
+	display: grid;
+    grid-template-columns: 1fr;
+    font-size: .5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+main section {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -35px;
+    width: 75%;
+    padding: 30px;
+	/* padding: 0 1rem; */
+}
 
 
 #colornumber1{
-    background-color: #823A32;
+    background-color: #A89FC4;
     color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 
 #colornumber2{
-    background-color: #AAABAF;
+    background-color: #21174F;
     color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 
 #colornumber3{
     background-color: #ADCCC8;
     color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 
 #colornumber4{
-    background-color: #A89FC4;
+    background-color: #D8D8DA;
     color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 
 #colornumber5{
     background-color: #3A3B38;
     color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#fontstyle1{
+    font-family: "Quicksand", sans-serif;
+}
+
+#fontstyle2{
+    font-family:"EB Garamond", serif;
+}
+
+#fontstyle3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.persona1{
+    background-color: #A89FC4;
+    color:#3A3B38;
+   margin-top: 15px;
+   margin-bottom:15px;
+}
+
+.persona2{
+    background-color: #A89FC4;
+    color:#3A3B38;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
