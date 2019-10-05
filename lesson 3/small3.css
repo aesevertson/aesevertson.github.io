@@ -1,5 +1,5 @@
 header{
-    background-color: #A89FC4;
+    background-color: #c7bee2;
     border-radius: 25px;
 }
 
@@ -81,7 +81,7 @@ body{
 }
 
 footer{
-    background-color: #A89FC4;
+    background-color: #c7bee2;
     color: #21174f;
     font-family: "Quicksand", sans-serif;
     text-align: center;
@@ -117,8 +117,8 @@ main section {
 
 
 #colornumber1{
-    background-color: #A89FC4;
-    color: white;
+    background-color: #c7bee2;
+    color: #3A3B38;
     border-style: solid;
     border-color: black;
     border-width: 1px;
@@ -169,14 +169,14 @@ main section {
 }
 
 .persona1, .persona2{
-    background-color: #A89FC4;
+    background-color: #c7bee2;
     color:#3A3B38;
    margin-top: 15px;
    margin-bottom:15px;
 }
 
 .scenarios{
-    background-color: #A89FC4;
+    background-color: #c7bee2;
     color:#3A3B38;
     margin-bottom: 45px;
     margin-top: 15px;
