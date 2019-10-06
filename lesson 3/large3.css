@@ -1,15 +1,19 @@
 @media only screen and (min-width: 60em) {
 
 h1{
-    font-size: 2.75em;
+    font-size: 50px;
 }
 
 h2{
-    font-size: 1.75em;
+    font-size: 30px;
 }
 
 h3{
-    font-size: 2.75em;
+    font-size: 40px;
+}
+
+nav ul a{
+    font-size: 20px;
 }
 
 header img {
@@ -20,7 +24,11 @@ header img {
 }
 
 main{
-    font-size: 1rem;
+    font-size: 30px;
+}
+
+footer{
+    font-size: 20px;
 }
 
 
