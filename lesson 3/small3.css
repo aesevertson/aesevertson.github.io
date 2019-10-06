@@ -7,7 +7,7 @@ h1{
     font-family: "Quicksand", sans-serif;
     color: #21174f;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.75em;
     padding-top:5px;
 }
 
@@ -15,7 +15,7 @@ h2{
     font-family: "Quicksand", sans-serif;
     color: #21174f;
     text-align: center;
-    font-size: 10px;
+    font-size: 1em;
     position: relative;
     padding-bottom: 30px;
 }
@@ -23,7 +23,7 @@ h2{
 h3{
     color: #21174f;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5em;
     text-decoration: underline;
 }
 
@@ -57,7 +57,7 @@ nav ul a {
     text-align: center;
     padding: .75rem;
     text-decoration: none;
-    font-size: 12px;
+    font-size: .75em;
     font-weight: bold;
 }
 
@@ -87,7 +87,7 @@ footer{
     text-align: center;
     border-radius: 25px;
     padding: 10px;
-    font-size: 12px;
+    font-size: .5em;
 }
 
 footer a:link, footer a:visited{
