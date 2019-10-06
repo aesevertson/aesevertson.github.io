@@ -191,7 +191,7 @@ table, th, td{
     border: solid black;
     border-width: 1px;
     border-collapse: collapse;
-    max-width: 50%;
+    max-width: 80%;
     margin-left: 40px;
     padding: 10px;
     margin-bottom: 40px;
