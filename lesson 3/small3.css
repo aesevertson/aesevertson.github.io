@@ -201,35 +201,35 @@ table, th, td{
 .sample1{
     font-family: "Quicksand", sans-serif;
     color: #21174F;
-    font-size: 50px;
+    font-size: 2.75em;
 }
 
 .sample2{
     font-family: "Quicksand", sans-serif;
     color: #21174F;
-    font-size: 30px;
+    font-size: 2em;
 }
 
 .sample3{
     font-family: "EB Garamond", serif;
     color: #382319;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .sample4{
     font-family: Arial, Helvetica, sans-serif;
     color: #21174F;
-    font-size: 40px;
+    font-size: 2.25em;
 }
 
 .sample5{
     font-family: Arial, Helvetica, sans-serif;
     color: #382319;
-    font-size: 30px;
+    font-size: 1.25em;
 }
 
 .sample6{
     font-family: "Quicksand", sans-serif;
     color: #21174F;
-    font-size: 20px;
+    font-size: 1em;
 }
