@@ -31,10 +31,6 @@
         font-size:15px;
     }
 
-    table, th, td{
-        margin-left: 80px;
-    }
-
      nav ul { display: flex; }
 
      nav ul li { flex: 1 1 100%; }
