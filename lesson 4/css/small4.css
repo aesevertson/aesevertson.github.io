@@ -70,7 +70,7 @@ nav ul a.active{
 }
 
 h2{
-    font-family: "Quicksand", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #21174f;
     text-align: center;
     font-size: 1em;
@@ -81,6 +81,8 @@ h2{
 body{
     background-color: #d8d8da;
     text-align: center;
+    color: #3A3B38;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .placeholder{
@@ -90,11 +92,13 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     max-width: 70%;
+    background-color: #ADCCC8;
 }
 
 footer{
     background-color: #c7bee2;
     border-radius: 25px;
+    font-family: "Quicksand", sans-serif;
 }
 
 .navigation li:first-child{
@@ -108,3 +112,9 @@ footer{
 .responsive li{
     display: block;
 }
+
+.linktohomepage{
+    font-family: "EB Garamond", serif;
+    color: #3A3B38;
+}
+
