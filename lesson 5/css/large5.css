@@ -1,0 +1,46 @@
+@media only screen and (min-width: 65em) {
+
+    h1{
+        font-size: 2.75em;
+    }
+    
+    .tagline{
+        font-size: 1.75em;
+    }
+    
+    h2{
+        font-size: 2.25em;
+    }
+    
+    nav ul a{
+        font-size: 1.25em;
+    }
+    
+   header img {
+       height: 20%;
+       width: 20%
+     }
+    
+    main{
+        font-size: 1.25em;
+    }
+    
+    footer{
+        font-size: 1em;
+    }
+
+   .navigation li:first-child{
+        display: none;
+    }
+    
+    .navigation li{
+        display: inline-block;
+        text-align: center;
+    }
+
+    img{
+        max-width: auto;
+        height: 15%;
+
+    }
+}
