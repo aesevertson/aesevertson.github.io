@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Site Project- Preston, ID</title>
     <meta name="weather site project" content="home page weather site for Preston, ID">
+    <meta name="description" content="weather page site for Presto, Idaho weather project CIT 230">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="./css/small5.css">
@@ -24,7 +25,7 @@
             </header>
             <nav>
                 <ul class="navigation">
-                    <li><a href="#" onclick="toggleMenu()">☰</a></li>
+                    <li><a href="#" onclick="toggleMenu()">☰ Menu</a></li>
                     <li><a href="#">Home</a></li>
                     <li><a href="preston-5.html" class="active">Preston</a></li>
                     <li><a href="#">Soda Springs</a></li>
@@ -35,13 +36,68 @@
             </nav>
         <main>
             <h2>Preston, Idaho</h2>
-            <div class="placeholder">Weather Summary</div>
-            <div class="placeholder">5 Day Weather Forecast</div>
-            <div class="placeholder">Article</div>
-            <div class="placeholder">Contact Information</div>
+            <div class="weathersummary">
+                <img class="weathersummaryimage" src="./images/skypicture.jpg" alt="picture for weather summary">
+                <section class="weatherstats">
+                    <h3>Weather Summary</h3>
+                    <p>Currently: Rainy</p>
+                    <p>Temperature: 59° F</p>
+                    <p>Humidity: 13%</p>
+                    <p>Precipitation: 3 inches</p>
+                    <p>Wind Speed: 10 MPH</p>
+                </div>
+            </div>
+           <div class="fivedayforecast">
+            <h4>5 Day Weather Forecast</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mon</th>
+                            <th>Tues</th>
+                            <th>Wed</th>
+                            <th>Thurs</th>
+                            <th>Fri</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&#9925; 54°F</td>
+                            <td>&#127783; 50°F</td>
+                            <td>&#127783; 57°F</td>
+                            <td>&#x1f328; 48°F</td>
+                            <td>&#x1f328; 49°F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <section id="articlecontent">
+            <div class="articlecolumn"
+                <h4>Article Title</h4>
+            <h5>By: Author</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="articleimage">
+                <img src="./images/grassypark.jpg" alt=" park image for article">
+            </div>   
+        </section>
+        <br>
+            <section id="contactinformation">
+                    <div class="mapofpreston">
+                        <img src="./images/prestonmap.png" alt="Preston Idaho map">
+                    </div>
+                <div class=informationcolumn>
+                <h4>Contact Information</h4>
+                <strong>Gem State Climate Conditions</strong>
+                <p>&#128205; N 1st E</p>
+                <p>&phone; (208)555-5555</p>
+                <p>&#9993; gemstateclimateconditions@gmail.com</p>
+                </div>
+            </section>
         </main>
+        </body>
             <footer>&copy; Gem State Climate Conditions | Attributions | <a class="linktohomepage" href="../index.html">Amy Severtson</a>
                 <br>
                 Current Date: <span id="currentdate"></span>
             </footer>
             <script src="./js/sources.js"></script>
+</html>

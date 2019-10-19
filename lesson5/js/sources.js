@@ -35,6 +35,6 @@ const fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
 document.getElementById("currentdate").textContent = fulldate;
 
 //code for banner ad
-if (d.getDay() === 2) {
+if (d.getDay() === 5) {
     document.getElementById("bannerad").hidden = false;
 }
