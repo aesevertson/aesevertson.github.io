@@ -57,11 +57,11 @@
 
     .weatherstats{
         position: absolute;
-        top: 12%;
-        left: 15%;
+        top: 10px;
+        left: 60px;
         background: radial-gradient(whitesmoke,#c7bee2);
         border: 1px solid #000;
-        padding: 1rem;
+        padding: 2px;
         opacity: .8;
     }
 

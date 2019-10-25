@@ -38,10 +38,9 @@
         text-align: center;
     }
 
-    img{
-        max-width: 80%;
-        height: 15%;
-
+    .weatherstats{
+        top: 20px;
+        left: 120px;
     }
 
     table, th, td{
