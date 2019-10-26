@@ -94,13 +94,14 @@
         font-family: Arial, Helvetica, sans-serif;
     }
     
-    main figure.weatherphoto{
+    main picture.weatherphoto{
         width: 80%;
-        margin: 0 0 0 10%;
+        margin: 0;
     }
     
-    main figure.weatherphoto img{
+    main picture.weatherphoto img{
         width: 100%;
+        border: 1px solid #21174f;
     }
 
     .weathersummary{
@@ -112,7 +113,7 @@
     .weatherstats{
         position: absolute;
         top: 20px;
-        left: 60px;
+        left: 20px;
         background: radial-gradient(whitesmoke,#c7bee2);
         border: 1px solid #000;
         padding: 2px;

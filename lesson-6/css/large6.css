@@ -40,7 +40,11 @@
 
     .weatherstats{
         top: 20px;
-        left: 120px;
+        left: 40px;
+    }
+
+    picture.weatherphoto img{
+        box-shadow: 10px 10px 5px #ADCCC8;
     }
 
     table, th, td{

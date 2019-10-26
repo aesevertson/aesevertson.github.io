@@ -6,6 +6,7 @@
 
     .tagline{
         font-size: 1.5em;
+        padding-right: 5px;
     }
 
      h2{
@@ -35,9 +36,8 @@
         margin: auto;
     }
 
-    img{
-        width: 75%;
-        height: 75%;
+    picture.weatherphoto img{
+    box-shadow: 8px 8px 5px #ADCCC8;
     }
 
     table, th, td{
@@ -58,7 +58,7 @@
     .weatherstats{
         position: absolute;
         top: 10px;
-        left: 60px;
+        left: 30px;
         background: radial-gradient(whitesmoke,#c7bee2);
         border: 1px solid #000;
         padding: 2px;
@@ -100,6 +100,7 @@
     }
 
     .mapofpreston img{
+        width: 70%;
         display: flex;
         margin: auto;
     }

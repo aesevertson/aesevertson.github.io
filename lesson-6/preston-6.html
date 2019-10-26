@@ -37,10 +37,11 @@
         <main>
             <h2>Preston, Idaho</h2>
             <div class="weathersummary">
-                <figure class="weatherphoto">
-                    <img src="./images/heroimage.jpeg" alt="picture for weather summary" srcset="./images/heroimagesmall.jpeg 200w, ./images/heroimagemedium.jpeg 400w, ./images/heroimagelarge.jpeg 800w" sizes="50vw">
-            
-                </figure>
+                <picture class="weatherphoto">
+                    <source srcset="./images/heroimagemedium.jpeg" media="(min-width: 34em) and (max-width: 65em)" > 
+                    <source srcset="./images/heroimagelarge.jpeg" media="(min-width: 65em)">
+                        <img src="./images/heroimagesmall.jpeg" alt="picture for weather summary"> 
+                </picture>
                 <section class="weatherstats">
                     <h3>Weather Summary</h3>
                     <p>Currently: Rainy</p>
