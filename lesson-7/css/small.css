@@ -1,0 +1,23 @@
+body{
+    background-color: cadetblue;
+}
+
+h1{
+    font-family: "quicksand", sans-serif;
+    text-align: center;
+}
+
+picture{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
