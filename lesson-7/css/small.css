@@ -21,7 +21,6 @@ figure{
     padding: 10px;
     margin: 2rem auto;
     display: grid;
-    max-width: 30%;
 }
 
 figcaption{
@@ -38,4 +37,5 @@ img[data-src] {
 img {
     filter: blur(0em);
     transition: filter 2s;
+    max-width:100%;
   }
