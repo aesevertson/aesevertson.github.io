@@ -7,7 +7,7 @@ header{
 }
 
 body{
-background-color: #e7f0ed;
+background-color: white;
 font-family: "ubuntu", sans-serif;
 }
 
@@ -33,7 +33,7 @@ thead, tfoot{
 }
 
 thead{
-    font-size: 18pt;
+    font-size: 24pt;
     font-weight: bold;
 }
 
