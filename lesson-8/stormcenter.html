@@ -40,20 +40,24 @@
         <fieldset>
             <legend>Personal Info</legend>
         <div class="nameinput">
-            <label for="fullName">*Full Name:</label> 
+            <label for="fullName">*Full Name: 
             <input type="text" required pattern="[A-Z a-z]{5,}" name="fullName">
+            </label>
         </div>
         <div class="emailinput">
             <label for="email">e-mail:</label>
             <input type="email" name="email" placeholder="email@email.com">
+        </label>
         </div>
         <div class="phonenumberinput">
-            <label for="telephoneNumber">*Phone Number:</label>
+            <label for="telephoneNumber">*Phone Number:
             <input type="tel"  required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="telephoneNumber" placeholder="123-456-7890"><br>
+        </label>
         </div>
         <div class="zipcodeinput">
-            <label for="zipcode">*Zip code:</label>
+            <label for="zipcode">*Zip code:
             <input type="text" required pattern="[0-9]{5}" name="zipcode" placeholder="12345">
+        </label>
         </div>
             <p>* indicates that the field is required</p>
         </fieldset>
@@ -61,12 +65,14 @@
         <fieldset>
             <legend>Storm Info</legend>
         <div class="dateofstorm">
-            <label for="stormdate">Storm Date:</label>
-            <input type="date" name="stormdate">
-        </div>
+            <label for="stormdate">Storm Date:
+                <input type="date" name="stormdate">
+            </label>
+            </div>
         <div class="typeofstorm">
-            <label for="stormtype">Choose Storm Type:</label>
-            <input list="stormtypes" name="stormtype"><br>
+            <label for="stormtype">Choose Storm Type:
+            <input list="stormtypes" name="stormtype">
+        </label>
             <datalist id="stormtypes">
               <option value="Flash Flood">Flash Flood</option>
               <option value="Hail">Hail</option>
@@ -76,8 +82,9 @@
             </datalist>
         </div>
         <div class="stormseverity">
-            <label class="storm" for="rating">Storm Severity Rating:</label>  
+            <label class="storm" for="rating">Storm Severity Rating: 
             <input type="range" name="rating" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+        </label>
             <span id="ratingvalue"></span>
         </div>
             <div class="stormregion">                   
