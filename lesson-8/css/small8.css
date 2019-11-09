@@ -130,6 +130,11 @@
        text-align: left;
        background-color: #c7bee2;
        font-size: 12pt;
+       border: 2px #21174f solid;
+   }
+
+   legend{
+       padding: 10px;
    }
 
    .nameinput, .emailinput, .phonenumberinput, .zipcodeinput{
