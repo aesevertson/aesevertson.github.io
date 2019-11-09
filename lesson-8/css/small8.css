@@ -59,7 +59,7 @@
         text-align: center;
         padding: .75rem;
         text-decoration: none;
-        font-size: .75em;
+        font-size: 12pt;
         font-weight: bold;
     }
     
@@ -108,47 +108,69 @@
         padding-left: 15px;
         text-decoration: underline;
         font-style: italic;
-        font-size: 2em;
+        font-size: 14pt;
     }
 
     input{
         margin:5px;   
     }
 
-    label{
+    /*label{
         text-align: right;
         display:inline-block;
         width:150px;
-    }
+    }*/
 
-    .picturecolumns{
-        display:grid;
-        grid-template-columns:1fr;
-        justify-content: center;
-    }
+   fieldset{
+       max-width:50%;
+       margin: auto;
+       padding: 15px;
+       margin-bottom: 30px;
+       display: block;
+       text-align: left;
+       background-color: #c7bee2;
+       font-size: 12pt;
+   }
 
-    figcaption{
-        display: block;
-    }
+   .nameinput, .emailinput, .phonenumberinput, .zipcodeinput{
+       margin-top: 20px;
+   }
 
+   p{
+       font-size: 10pt;
+       color:#21174f;
+   }
 
-    figure{
-        background-color: #ADCCC8;
-        padding: 10px;
-        margin: 2rem auto;
-        display: grid;
-        max-width: 80%;
-    }
+   .stormseverity{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+   }
 
-    img[data-src] {
-        filter: blur(1em);
-      }
-    
-    img {
-        filter: blur(0em);
-        transition: filter 2s;
-        max-width:100%;
-      }
+   .dateofstorm, .typeofstorm, .stormregion{
+   margin-top: 20px;
+   }
+
+  .selection{
+      display: grid;
+      align-content: center;
+      padding-top: 10px;
+      margin-top: 10px;
+  }
+
+  .submitbutton{
+     margin:30px;
+     background-color:#ADCCC8;
+     padding: 5px;
+     font-size: 12pt;
+  }
+
+   .thankyou{
+    font-size: 20pt;
+    padding:25px;
+    margin: auto;
+    display: block;
+   }
 
     footer{
         background-color: #c7bee2;

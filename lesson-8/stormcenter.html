@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Site Project- Preston, ID</title>
-    <meta name="weather site project" content="home page weather site for Preston, ID">
-    <meta name="description" content="weather page site for Presto, Idaho weather project CIT 230">
+    <meta name="weather site project" content="storm center page">
+    <meta name="description" content="weather page site for storm center weather project CIT 230">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="./css/small8.css">
@@ -35,15 +35,80 @@
                 </ul>
             </nav>
         <main>
-            <h2>Storm Center</h2>
+            <h2>Weather Report Form</h2>
         <form action="./thanks.html">
-           <label for="fullName">*Full Name:</label> 
-            <input type="text" required pattern="[a-zA-Z]{5,}" name="fullName"><br>
+        <fieldset>
+            <legend>Personal Info</legend>
+        <div class="nameinput">
+            <label for="fullName">*Full Name:</label> 
+            <input type="text" required pattern="[A-Z a-z]{5,}" name="fullName">
+        </div>
+        <div class="emailinput">
             <label for="email">e-mail:</label>
-            <input type="email" name="email" placeholder="email@email.com"><br>
-            <input type="submit" value="submit">
-            <label for="">Phone Number</label>
-            <input type="text">
+            <input type="email" name="email" placeholder="email@email.com">
+        </div>
+        <div class="phonenumberinput">
+            <label for="telephoneNumber">*Phone Number:</label>
+            <input type="tel"  required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="telephoneNumber" placeholder="123-456-7890"><br>
+        </div>
+        <div class="zipcodeinput"
+            <label for="zipcode">*Zip code:</label>
+            <input type="text" required pattern="[0-9]{5}" name="zipcode" placeholder="12345"><br>
+        </div>
+            <p>* indicates that the field is required</p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Storm Info</legend>
+        <div class="dateofstorm">
+            <label for="stormdate">Storm Date:</label>
+            <input type="date" name="stormdate">
+        </div>
+        <div class="typeofstorm">
+            <label for="stormtype">Choose Storm Type:</label>
+            <input list="stormtypes" name="stormtype"><br>
+            <datalist id="stormtypes">
+              <option value="Flash Flood">Flash Flood</option>
+              <option value="Hail">Hail</option>
+              <option value="Hurricane">Hurricane</option>
+              <option value="Thunderstorm">Thunderstorm</option>
+              <option value="Tornado">Tornado</option>
+            </datalist>
+        </div>
+        <div class="stormseverity">
+            <label class="storm" for="rating">Storm Severity Rating:</label>  
+            <input type="range" name="rating" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <span id="ratingvalue"></span>
+        </div>
+            <div class="stormregion">                   
+            <label class="storm" for="stormlocation">Choose Storm Location:</label>
+            <select id="stormlocations" name="stormlocation"><br>
+            <option value>Select Location</option>
+            <option value="Fish Haven">Fish Haven</option>
+            <option value="Preston">Preston</option>
+            <option value="Soda Springs">Soda Springs</option>
+            </select>
+            </div>
+            <div class="selection">Are You in Danger?</div>
+                <div class="select">
+                    <label for="dangeroption1"><input type="radio" id="dangeroption1" name="danger" value="yes">Yes</label>
+                </div>
+                <div class="select">
+                    <label for="dangeroption2"><input type="radio" id="dangeroption2" name="danger" value="no">No</label>
+                </div>
+                <div class="select">
+                    <label for="dangeroption3"><input type="radio" id="dangeroption3" name="danger" value="maybe">Maybe</label>
+                </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Tell Us More</legend>
+            <label for="moreinfo">Additional Comments:</label>
+            <textarea class="textarea" name="moreinfo" id="info"></textarea>
+        </fieldset>
+
+            <input class="submitbutton" type="submit" value="Submit Weather Report">
+
         </form>
         </main>
         <footer>&copy; Gem State Climate Conditions | Attributions | <a class="linktohomepage" href="../index.html">Amy Severtson</a>

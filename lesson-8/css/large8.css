@@ -9,11 +9,11 @@
     }
     
     h2{
-        font-size: 2.25em;
+        font-size: 18pt;
     }
     
     nav ul a{
-        font-size: 1.25em;
+        font-size: 18pt;
     }
 
     .navigation li:first-child{
@@ -25,17 +25,13 @@
         text-align: center;
     }
 
-    .picturecolumns{
-    grid-template-columns: 1fr 1fr 1fr;
+    fieldset{
+        max-width:70%;
+        font-size: 18pt;
     }
 
-    figure:hover{
-        box-shadow: 5px 5px gray;
-    }
-
-    figcaption{
-        font-family: 'quicksand', sans-serif;
-        display: block;
+    .submitbutton{
+        font-size: 18pt;
     }
 
 }
