@@ -4,6 +4,11 @@ h1{
     color: rgb(88, 66, 129);
 }
 
+main{
+    box-shadow: 0 0 20px black;
+    background-color: rgb(209, 209, 209);
+}
+
 div{
     display: grid;
     grid-template-columns: 100%;
