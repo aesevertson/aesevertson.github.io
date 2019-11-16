@@ -29,7 +29,7 @@ fetch(requestURL)
         population.textContent = "Current Population: " + town.currentPopulation;
         rainfall.textContent = "Average Rainfall: " +  town.averageRainfall;
         image.setAttribute('src', "./images/" + town.photo);
-        //image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + " - " + prophets[i].order);
+        image.setAttribute('alt', town.photo);
 
         subdiv.appendChild(title);
         subdiv.appendChild(motto); 
