@@ -20,6 +20,7 @@ fetch(requestURL)
         let founded = document.createElement('p');
         let population = document.createElement('p');
         let rainfall = document.createElement('p');
+        let subdiv = document.createElement('div');
         let image = document.createElement('img');
 
         title.textContent = town.name;
@@ -30,11 +31,12 @@ fetch(requestURL)
         image.setAttribute('src', "./images/" + town.photo);
         //image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + " - " + prophets[i].order);
 
-        card.appendChild(title);
-        card.appendChild(motto); 
-        card.appendChild(founded);
-        card.appendChild(population);
-        card.appendChild(rainfall);
+        subdiv.appendChild(title);
+        subdiv.appendChild(motto); 
+        subdiv.appendChild(founded);
+        subdiv.appendChild(population);
+        subdiv.appendChild(rainfall);
+        card.appendChild(subdiv);
         card.appendChild(image);
         document.querySelector('div.townstats').appendChild(card);
         

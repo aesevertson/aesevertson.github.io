@@ -26,6 +26,19 @@
     }
 
     .townstats{
+        display: grid;
         grid-template-columns: 33.3% 33.3% 33.3%;
+    }
+
+    main section {
+        display: block;
+      }
+
+    .townstats section div {
+      height: 250px;
+    }
+
+    section img{
+        width: 80%;
     }
 }
