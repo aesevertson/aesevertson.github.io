@@ -120,6 +120,11 @@
         font-style: italic;
     }
 
+    h5{
+        font-size: 18pt;
+        text-decoration: underline;
+    }
+
     .townstats{
         display:grid;
         margin-bottom: 10px;
@@ -144,8 +149,12 @@
         display: block;
        box-shadow: 0 0 10px #c7bee2;
     }
-    
-    
+
+    #newsarticle{
+        background-color: #ADCCC8;
+        color: #3A3B38;
+    }
+
 
     footer{
         background-color: #c7bee2;

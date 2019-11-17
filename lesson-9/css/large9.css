@@ -41,4 +41,11 @@
     section img{
         width: 80%;
     }
+
+    h5{
+        font-size: 26pt;
+    }
+    #newsarticle p{
+        font-size: 16pt;
+    }
 }
