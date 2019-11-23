@@ -123,6 +123,7 @@
     .weatherstats p{
         font-size:1em;
         margin: auto;
+        text-transform: capitalize;
     }
     
     .fivedayforecast{
