@@ -1,25 +1,35 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=ac4a7c570cce008087083e285058e1e6";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=ac4a7c570cce008087083e285058e1e6";
 
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject);
+         
+       
+     document.getElementById('currentCondition').textContent = jsObject.weather[0].description;
+     document.getElementById('current-temp').textContent = jsObject.main.temp.toFixed(0);
+     document.getElementById('windspeed').textContent = jsObject.wind.speed.toFixed(1);
+     document.getElementById('humidity').textContent = jsObject.main.humidity;
+    
 
-        const f = KtoF(jsObject.main.temp);
-        //const f = (((jsObject.main.temp - 273.15) * 9) / 5) + 32;
-        var temp = f.toFixed(0);
+     function windChill() {
+       var temp = parseInt(document.getElementById("current-temp").innerText);
+       var speed = parseInt(document.getElementById("windspeed").innerText);
+       var result = calculatechill(temp, speed);
 
-        //  Formula to convert Kelvin to Fahrenheit (K − 273.15) × 9/5 + 32 = °F
-        document.getElementById('current-temp').textContent = temp;
+       if ((temp <= 50) && (speed >= 3.0)) {
+         document.getElementById("chill").innerText = result.toFixed() + " °F";
+       } else {
+         document.getElementById("chill").innerText = "N/A";
+       }
+     }
 
-        let currentCondition = jsObject.weather[0].description;
-        document.getElementById('currentCondition').textContent = currentCondition;
+     function calculatechill(temp, speed) {
+       var calculatechill = (35.74 + (0.6215 * temp) - (35.75 * (speed**0.16)) + (0.4275 * temp *(speed**0.16)));
+       return calculatechill;
+     }
+     windChill();
 
-        let humidity = jsObject.main.humidity;
-        document.getElementById('humidity').textContent = humidity;
-
-        let WindSpeed = Math.round(jsObject.wind.speed);
-        document.getElementById('windspeed').textContent = WindSpeed;
 
        // const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
        // const desc = jsObject.weather[0].description;  // note how we reference the weather array
