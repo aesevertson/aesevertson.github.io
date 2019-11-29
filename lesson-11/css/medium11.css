@@ -30,11 +30,9 @@
     }
 
     footer{
-        font-size:.75em;
         max-width: 80%;
-        align-content: center;
-        margin: auto;
     }
+        
 
     picture.weatherphoto img{
     box-shadow: 8px 8px 5px #ADCCC8;
@@ -73,11 +71,11 @@
 
     .fivedayforecast{
         display: block;
-        font-size: 1.5em;
+        font-size: 14pt;
     }
 
     #articlecontent{
-        font-size: 1.2em;
+        font-size: 14pt;
         text-align: left;
     }
 
@@ -93,19 +91,23 @@
         margin: auto;
       }
 
+      .events{
+          font-size: 14pt;
+      }
+
     #contactinformation{
-        font-size: .75em;
+        font-size: 10pt;
         text-align: left;
     }
   
-    .mapofpreston, .informationcolumn{
+    .idahomap, .informationcolumn{
         width:48%;
         flex: 1 0 15em;
-        margin: auto;
+        margin: 10px;
     }
 
-    .mapofpreston img{
-        width: 70%;
+    .idahomap img{
+        width: 50%;
         display: flex;
         margin: auto;
     }

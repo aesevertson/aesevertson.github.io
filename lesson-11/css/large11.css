@@ -61,4 +61,12 @@
     th{
         background-color: #ADCCC8;
     }
+
+    .fivedayforecast{
+        font-size: 18pt;
+    }
+
+    #articlecontent{
+        font-size:16pt;
+        }
 }
