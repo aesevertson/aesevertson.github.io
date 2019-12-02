@@ -59,7 +59,7 @@
         text-align: center;
         padding: .75rem;
         text-decoration: none;
-        font-size: .75em;
+        font-size: 12pt;
         font-weight: bold;
     }
     
@@ -139,6 +139,10 @@
     font-size:12pt;
     text-align: left;
     }
+
+    .articlecolumn p{
+        text-indent: 40px;
+    }
     
     .articlecolumn, .articleimage{
         width: 48%;
@@ -154,9 +158,11 @@
           background-color: #c7bee2;
           text-align: left;
           justify-content: left;
-         margin: 15px;
-         padding: 5px;
          font-size: 12pt;
+         max-width: 100%;
+         padding: 5px;
+         margin-top: 10px;
+         margin-bottom: 10px;
       }
 
       .events h4{

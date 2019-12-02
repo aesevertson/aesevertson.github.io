@@ -42,22 +42,26 @@
                 <legend>Personal Info</legend>
                 <div class="nameinput">
                     <label for="fullName">*Full Name:
+                        <br>
                         <input type="text" required pattern="[A-Z a-z]{5,}" name="fullName" id="fullName">
                     </label>
                 </div>
                 <div class="emailinput">
                     <label for="email">e-mail:
+                        <br>
                         <input type="email" name="email" placeholder="email@email.com" id="email">
                     </label>
                 </div>
                 <div class="phonenumberinput">
                     <label for="telephoneNumber">*Phone Number:
+                        <br>
                         <input type="tel" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="telephoneNumber" id="telephoneNumber"
                             placeholder="123-456-7890"><br>
                     </label>
                 </div>
                 <div class="zipcodeinput">
                     <label for="zipcode">*Zip code:
+                        <br>
                         <input type="text" required pattern="[0-9]{5}" name="zipcode" placeholder="12345" id="zipcode">
                     </label>
                 </div>
@@ -68,11 +72,13 @@
                 <legend>Storm Info</legend>
                 <div class="dateofstorm">
                     <label for="stormdate">Storm Date:
+                        <br>
                         <input type="date" name="stormdate" id="stormdate">
                     </label>
                 </div>
                 <div class="typeofstorm">
                     <label for="stormtype">Choose Storm Type:
+                        <br>
                         <input list="stormtypes" name="stormtype" id="stormtype">
                     </label>
                     <datalist id="stormtypes">
@@ -105,6 +111,7 @@
                 </div>
                 <div class="stormregion">
                     <label class="storm" for="stormlocation">Choose Storm Location:</label>
+                    <br>
                     <select id="stormlocation" name="stormlocation">
                         <option value disabled selected>Select Location</option>
                         <option value="Fish Haven">Fish Haven</option>

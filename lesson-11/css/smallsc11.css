@@ -83,10 +83,11 @@ nav ul a.active{
     display: block;
 }
 
-.linktohomepage{
+.linktohomepage, .links{
     font-family: "EB Garamond", serif;
     color: #3A3B38;
 }
+
 
 body{
     background-color: #d8d8da;
