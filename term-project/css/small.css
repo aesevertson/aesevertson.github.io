@@ -1,0 +1,93 @@
+header{
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #c8d5b9;
+}
+
+h1{
+    font-family: "Cabin Condensed", sans-serif;
+    color: #3A3B38;
+    text-align: center;
+    font-size: 24pt;
+    padding-top:50px;
+   }
+
+header img{
+    padding-right: 20px;
+}
+
+nav {
+    background-color: #68B0AB;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul a {
+    display: block;
+    color: #3A3B38;
+    text-align: center;
+    padding: .75rem;
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+nav ul a:link, nav ul a:visited{
+    color: #3A3B38;
+}
+
+nav ul a:hover{
+    color: #21174f;
+    text-decoration: underline;
+}
+
+nav ul a.active{
+    color: #21174f;
+    text-decoration: underline;
+    background-color: whitesmoke;
+}
+
+.navigation li:first-child{
+    display: block;
+}
+
+.navigation li{
+    display: none;
+}
+
+.responsive li{
+    display: block;
+}
+
+main{
+    font-family: "cabin condensed", sans-serif;
+}
+
+#bannerad h2{
+    background-color: #21174f;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    }
+
+    h3{
+        font-size: 24pt;
+    }
+
+
+footer{
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #c8d5b9;
+}

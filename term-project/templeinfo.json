@@ -1,0 +1,38 @@
+{
+    "temples" : [
+    { "name":"Gilbert, Arizona",
+      "address":"3301 S Greenfield Rd\nGilbert AZ 85297\nUnited States",
+      "telephone": "(1) 480-822-5000",
+      "email":"",
+      "services":[
+          "Clothing rental available",
+          "No cafeteria available",
+          "No patron housing available",
+          "Distribution center nearby"
+      ]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
+}
+
