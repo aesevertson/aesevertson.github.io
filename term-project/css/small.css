@@ -15,13 +15,13 @@ h1{
    }
 
 header img{
-    padding-right: 20px;
+    padding-right: 3px;
 }
 
 nav {
-    background-color: #68B0AB;
+    background-color: #40798c;
     text-align: center;
-    font-family: "EB Garamond", serif;
+    font-family: "Gupter", serif;
 }
 
 nav ul {
@@ -33,16 +33,16 @@ nav ul {
 
 nav ul a {
     display: block;
-    color: #3A3B38;
+    color: whitesmoke;
     text-align: center;
-    padding: .75rem;
+    padding: 20px;
     text-decoration: none;
     font-size: 12pt;
     font-weight: bold;
 }
 
 nav ul a:link, nav ul a:visited{
-    color: #3A3B38;
+    color: whitesmoke;
 }
 
 nav ul a:hover{
@@ -56,6 +56,7 @@ nav ul a.active{
     background-color: whitesmoke;
 }
 
+
 .navigation li:first-child{
     display: block;
 }
@@ -68,23 +69,76 @@ nav ul a.active{
     display: block;
 }
 
+body{
+    background-color: rgb(255, 255, 244);
+}
+
 main{
     font-family: "cabin condensed", sans-serif;
 }
 
 #bannerad h2{
-    background-color: #21174f;
+    background-color: #1f363d;
     color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 18pt;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 0;
     }
+
+    .templestats{
+        display:grid;
+        margin-bottom: 10px;
+
+    }
+    
+    .templestats section{
+        margin: 15px;
+        background-color: cadetblue;
+        padding: 10px;
+    }
+
+.templestats h3{
+    text-align: center;
+}
+
+.templestats img{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+ 
 
     h3{
         font-size: 24pt;
     }
 
+input{
+    border: solid black 1px;
+
+}
+
+/*input[type=text], textarea {
+    width: 80%; 
+    padding: 12px;  
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; /
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }*/
+
+.contactform{
+    max-width: 70%;
+    align-content: center ;
+    margin: auto;
+    padding: 25px;
+}
 
 footer{
+    font-family: "Gupter", serif;
     max-width: 100%;
     display: flex;
     align-content: center;

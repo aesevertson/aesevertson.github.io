@@ -1,4 +1,7 @@
 @media only screen and (min-width: 65em) {
+header{
+    max-width: 100%;
+}
 
 .navigation li:first-child{
         display: none;
@@ -8,3 +11,26 @@
         display: inline-block;
         text-align: center;
     }
+
+.templestats{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-content: center;
+}
+
+.templestats img{
+    width: 80%;
+margin: auto;
+   display: block;
+}
+    
+.templestats h4{
+    text-decoration: underline;
+    font-size: 18pt;
+}
+
+
+
+
+
+}
