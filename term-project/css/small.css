@@ -108,31 +108,139 @@ main{
     margin: auto;
     display: block;
 }
+
+h2{
+    font-size: 24pt;
+    text-align: center;
+}
  
 
     h3{
         font-size: 24pt;
     }
 
+fieldset{
+    margin: 15px;
+}
+
+.reservationForm{
+    list-style-type: none;
+}
+
+.row{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5em;
+}
+
+.row label {
+    padding: 10px;
+  }
+
+  .row input {
+    flex: 1;
+  }
+
+.Daterow{
+    flex: .5;
+    padding: 10px;
+}
+
 input{
     border: solid black 1px;
 
 }
 
-/*input[type=text], textarea {
-    width: 80%; 
-    padding: 12px;  
-    border: 1px solid #ccc;
-    border-radius: 4px; 
-    box-sizing: border-box; /
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical;
-  }*/
+.submitbuttonReservation{
+    padding: 5px;
+    font-size: 14pt;
+    display: block;
+    margin: auto;
+    background-color: #40798c;
+    color: whitesmoke;
+}
+
+.services, .freeamenities, .extraservices{
+background-color: #1f363d;
+color: whitesmoke;
+text-align: left;
+padding-top: 5px;
+padding-bottom: 25px;
+padding-right: 15px;
+max-width: 80%;
+margin: auto;
+margin-bottom: 15px;
+font-size: 12pt;
+}
+
+.extraservices{
+background-color: #1f363d;
+color: whitesmoke;
+text-align: left;
+padding: 15px;
+max-width: 50%;
+margin: auto;
+margin-bottom: 15px;
+}
+}
+
+.extraservices a:active{
+    color: whitesmoke;
+}
+
+.extraservices a:link, .extraservices a:visited{
+    color:whitesmoke;
+}
+
+.extraservices a:hover{
+    color: #493843;
+}
+
+.contactform form{
+    margin: auto;
+    width: 80%;
+}
+
+legend {
+    font-size: 30pt;
+    padding: 5px;
+}
+
+fieldset div {
+    text-align: center;
+    padding: 5px;
+}
+
+.contactForm label {
+    width : 33%;
+    text-align: right;
+    float: left;
+}
+
+.contactInput input, textarea {
+    width: 50%;
+}
+
+#contactformSubmit{
+text-align: center;
+}
+
+.submitbuttonContact{
+    display: block;
+    margin: auto;
+    background-color: #40798c;
+    color: whitesmoke;
+}
 
 .contactform{
     max-width: 70%;
-    align-content: center ;
+    margin: auto;
+    padding: 25px;
+}
+
+iframe{
+    width: 80%;
+    display: block;
     margin: auto;
     padding: 25px;
 }
@@ -144,4 +252,5 @@ footer{
     align-content: center;
     justify-content: center;
     background-color: #c8d5b9;
+    margin-top: 15px;
 }
