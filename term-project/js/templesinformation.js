@@ -1,15 +1,9 @@
 const jsonObject = {
     "temples" : [
     { "name":"Gilbert, Arizona",
-      "photo": "gilbertarizonatemple.jpg",
-      "address":"3301 S Greenfield Rd\nGilbert,AZ 85297\nUnited States",
-      "telephone": "(1) 480-822-5000",
-      "services":[
-          "Clothing rental available",
-          "No cafeteria available",
-          "No patron housing available",
-          "Distribution center nearby"
-      ],
+      "listId": "gilbertclosures",
+      "weatherId": "5295903",
+      "weatherDivId": "gilbertweather",
       "closures":[
           "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
           "Tuesday, 31 December 2019",
@@ -25,15 +19,9 @@ const jsonObject = {
       ]
     },
     { "name": "Manhattan, New York",
-      "photo":"manhattannewyorktemple.jpg",
-      "address": "125 Columbus Ave, Fourth Floor\nNew York, NY 10023-6514\nUnited States",
-      "telephone": "(1) 917-441-8220",
-      "services":[
-          "Clothing rental available",
-          "No cafeteria available",
-          "No patron housing available",
-          "Distribution center nearby"
-      ],
+      "listId": "manhattanclosures",
+      "weatherId": "5125771",
+      "weatherDivId": "manhattanweather",
       "closures":[
         "Tuesday, 24 December 2019",
         "Wednesday, 25 December 2019",
@@ -53,16 +41,9 @@ const jsonObject = {
 
     },
     { "name": "Boston, Massachusetts",
-      "photo": "bostontemple.jpg",
-      "address": "100 Hinckley Wy\nBelmont, MA 02478-2135\nUnited States" ,
-      "telephone": "(1) 617-993-9993",
-      "email":"",
-      "services":[
-          "Clothing rental available",
-          "No cafeteria available",
-          "No patron housing available",
-          "Distribution center nearby"
-      ],
+      "listId": "bostonclosures",
+      "weatherId": "4930956",
+      "weatherDivId": "bostonweather",
       "closures":[
           "Tuesday, 24 December 2019",
           "Wednesday, 25 December 2019",
@@ -82,15 +63,9 @@ const jsonObject = {
       ]
     },
   { "name": "Laie, Hawaii",
-    "photo": "laiehawaiitemple.jpg",
-    "address":"55-600 Naniloa Loop\nLaie, HI 96762-2202\nUnited States",
-    "telephone":"(1) 808-293-2427",
-    "services":[
-          "Clothing rental available",
-          "No cafeteria available",
-          "No patron housing available",
-          "Distribution center nearby"
-    ],
+    "listId": "laieclosures",
+    "weatherId": "5850027",
+    "weatherDivId": "laieweather",
     "closures":[
           "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
           "Friday, 27 December 2019 (Limited Hours)2019",
@@ -115,11 +90,6 @@ const jsonObject = {
     ]
 }
 
-// fetch(requestJSON)
-//   .then(function (response) {
-//     return response.json();
-//   })
-//   .then(function (jsonObject) {
     console.table(jsonObject);
     const temples = jsonObject['temples'];
 
@@ -127,48 +97,26 @@ const jsonObject = {
     let manhattanNewYork = temples.find(temple => temple.name === "Manhattan, New York");
     let bostonMasschusetts = temples.find(temple => temple.name === "Boston, Massachusetts");
     let laieHawaii = temples.find(temple => temple.name === "Laie, Hawaii");
-    //for (let i = 0; i < towns.length; i++ ) {
-        //console.log(towns);
-    for (let temple of [gilbertArizona, manhattanNewYork, bostonMasschusetts, laieHawaii]) {      
-        let card = document.createElement('section');
-        let title = document.createElement('h3');
-        let location = document.createElement('p');
-        let phone = document.createElement('p');
-        let servicelabel = document.createElement('h4');
-        let services = document.createElement('ul');
-        let closinglabel = document.createElement('h4');
-        let closing = document.createElement('ul');
-        let subdiv = document.createElement('div');
-        let image = document.createElement('img');
 
-        title.textContent = temple.name;
-        location.textContent = temple.address;
-        phone.textContent = temple.telephone;
-        servicelabel.textContent = "Services:"
-        for (let service of temple.services) {
-            let serviceItem = document.createElement('li');
-            serviceItem.textContent = service;
-            services.appendChild(serviceItem);
-        }
-        closinglabel.textContent = "Closures:"
+    for (let temple of [gilbertArizona, manhattanNewYork, bostonMasschusetts, laieHawaii]) {      
+
+        let list = document.getElementById(temple.listId);
         for (let closure of temple.closures){
             let closureDate = document.createElement('li');
             closureDate.textContent = closure;
-            closing.appendChild(closureDate);
+            list.appendChild(closureDate);
         }
-        image.setAttribute('src', "./images/" + temple.photo);
-        image.setAttribute('alt', temple.photo);
 
-        subdiv.appendChild(title);
-        subdiv.appendChild(location); 
-        subdiv.appendChild(phone);
-        subdiv.appendChild(servicelabel);
-        subdiv.appendChild(services);
-        subdiv.appendChild(closinglabel);
-        subdiv.appendChild(closing);
-        card.appendChild(subdiv);
-        card.appendChild(image);
-        document.querySelector('div.templestats').appendChild(card);
-        
+        fetch("https://api.openweathermap.org/data/2.5/weather?id=" + temple.weatherId + "&units=imperial&APPID=ac4a7c570cce008087083e285058e1e6")
+            .then((response) => response.json())
+            .then((jsObject) => {
+                console.log(jsObject);
+                let weatherDiv = document.getElementById(temple.weatherDivId);
+                let currentCondition = document.createElement("p");
+                let currentTemp = document.createElement("p");
+                currentCondition.textContent = jsObject.weather[0].description;
+                currentTemp.textContent = jsObject.main.temp.toFixed(0) + " °F";
+                weatherDiv.appendChild(currentCondition);
+                weatherDiv.appendChild(currentTemp);
+            });
     }
-//   });

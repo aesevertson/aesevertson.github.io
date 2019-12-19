@@ -10,24 +10,15 @@ header{
 .navigation li{
         display: inline-block;
         text-align: center;
-    }
-
-.templestats{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    align-content: center;
 }
 
-.templestats img{
-    width: 80%;
-margin: auto;
-   display: block;
+#templesPage{
+display: grid;
+grid-template-columns: 50% 50%;
+align-content: center;
 }
-    
-.templestats h4{
-    text-decoration: underline;
-    font-size: 18pt;
-}
+
+
 
 
 
