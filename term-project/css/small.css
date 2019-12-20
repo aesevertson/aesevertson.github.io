@@ -46,7 +46,7 @@ nav ul a:link, nav ul a:visited{
 }
 
 nav ul a:hover{
-    color: #21174f;
+    color: #c8d5b9;
     text-decoration: underline;
 }
 
@@ -114,29 +114,47 @@ main{
       width:100%
   }
 
-#templeattendingpictures{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-   padding-bottom: 15px;
-}
 
-#templeattendingpictures img{
-    max-width: 60%;
+.pictures1, .pictures2, .pictures3{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: left;
+    background-color:#40798c;
+    max-width: 80%;
     margin: auto;
+    margin-bottom: 15px;
     padding: 15px;
 }
 
-#pictures{
+.Textarea p{
+    text-indent: 40px;
+    color: whitesmoke;
+}
+
+.Textarea, .Picturearea{
+    width: 48%;
+    flex: 1 0 15em;
+    margin: 0.5em
+  }
+
+  .Picturearea img{
+      width:100%
+  }
+
+  
+/*#pictures{
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
+    background-color: #70a9a1;
 }
 
 #pictures img{
     max-width: 80%;
     margin: auto;
     margin-bottom: 15px;
-}
+}*/
 
 #contactNavigation{
     background-color: #1f363d;
@@ -151,29 +169,21 @@ main{
     margin: auto;
     text-align: center;
 }
- /*   .templestats{
-        display:grid;
-        margin-bottom: 10px;
-
-    }
-    
-    .templestats section{
-        margin: 15px;
-        background-color: cadetblue;
-        padding: 10px;
-    }
-
-.templestats h3{
-    text-align: center;
+.templeinformation{
+    background-color: #70a9a1;
+    margin: auto;
+    margin-bottom: 15px;
+    max-width: 70%;
+    padding: 15px;
 }
 
-.templestats img{
-    width: 80%;
-    margin: auto;
+.templeinformation img{
+    max-width: 90%;
     display: block;
-}*/
+    margin: auto;
+}
 
-#gilbertweather{
+#bostonweather, #gilbertweather, #laieweather, #manhattanweather{
     text-transform: capitalize;
 }
   
@@ -241,6 +251,15 @@ margin: auto;
 margin-bottom: 15px;
 font-size: 12pt;
 }*/
+.hotelservices, .freeamenities{
+    background-color: #1f363d;
+    color: whitesmoke;
+    max-width: 50%;
+    display: block;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 15px;
+}
 
 .extraservices{
 background-color: #1f363d;

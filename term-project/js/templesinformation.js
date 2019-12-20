@@ -82,9 +82,6 @@ const jsonObject = {
           "Thursday, 26 November 2020",
           "Thursday, 24 December 2020 - Friday, 25 December 2020",
           "Thursday, 31 December 2020 (Limited Hours)",
-          "Friday, 1 January 2021",
-          "Saturday, 2 January 2021 (Limited Hours)",
-          "Monday, 4 January 2021 - Monday, 18 January 2021"
           ]
   }
     ]
