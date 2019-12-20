@@ -3,6 +3,10 @@ header{
     max-width: 100%;
 }
 
+h1{
+    font-size: 36pt;
+}
+
 .navigation li:first-child{
         display: none;
     }
@@ -10,6 +14,72 @@ header{
 .navigation li{
         display: inline-block;
         text-align: center;
+}
+
+nav ul a{
+    font-size: 18pt;
+}
+
+#bannerad h2{
+    font-size: 24pt;
+}
+
+
+h2{
+    font-size: 30pt;
+}
+
+.templeattendingpictures p{
+    font-size: 16pt;
+}
+
+#activitiesColumn p{
+    font-size: 16pt;
+}
+
+.Textarea p{
+    font-size: 16pt;
+}
+
+legend{
+    font-size: 28pt;
+}
+
+#reservationpageheader{
+    font-size: 28pt;
+}
+
+label{
+    font-size: 16pt;
+}
+
+.submitbuttonContact, .submitbuttonReservation{
+    font-size: 16pt;
+}
+
+
+#contactNavigation{
+    font-size: 16pt;
+}
+
+.templeinformation h3{
+    font-size: 20pt;
+}
+
+.templeinformation{
+    font-size: 20pt;
+}
+
+.hotelservices, .freeamenities, .extraservices, .receptionSection, .suiteList{
+    font-size: 18pt;
+}
+
+.templeattendingpictures p, .receptionsummarypictures p, .servicessummarypictures p, .missionarysummarypictures p{
+    font-size: 18pt;
+}
+
+.missionaryServices h3{
+    font-size: 20pt;
 }
 
 

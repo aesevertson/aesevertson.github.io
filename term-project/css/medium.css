@@ -1,23 +1,73 @@
 @media only screen and (min-width: 34em) {
 
-    .templesummary{
+
+    h1{
+        font-size: 30pt;
+    }
+
+    #reservationpageheader{
+        font-size: 24pt;
+    }
+
+    h3{
+        font-size: 18pt;
+    }
+
+    nav ul a{
+        font-size: 14pt;
+    }
+
+    #bannerad h2{
+        font-size: 20pt;
+    }
+
+    #activitiesColumn p{
+        font-size: 14pt;
+    }
+
+    .templeattendingpictures p{
+        font-size: 14pt;
+    }
+
+    .Textarea p{
+        font-size: 14pt;
+    }
+
+    #contactNavigation{
+        font-size: 14pt;
+    }
+
+    legend{
+        font-size: 24pt;
+    }
+
+    label{
+        font-size: 14pt;
+    }
+
+    .submitbuttonContact, .submitbuttonReservation{
+        font-size: 14pt;
+    }
+    
+    .templesummary, .receptionsummary, .servicesAmenities, .missionarysummary{
         display: table;
         max-width:100%;
         border-spacing: 5vw 15px;
         margin: auto;
     }
 
-    .templesummaryrow{
+    .templesummaryrow, .receptionsummaryrow, .servicessummaryrow, .missionarysummaryrow{
         display: table-row;
     }
 
-    .templeattendingpictures{
+    .templeattendingpictures, .receptionsummarypictures, .servicessummarypictures, .missionarysummarypictures{
         display:table-cell;
         width: 45vw;
         padding: 3%;
     }
 
-   .templeattendingpictures img{
+   .templeattendingpictures img, .receptionsummarypictures img, 
+   .servicessummarypictures img, .missionarysummarypictures img{
         width: 100%;
    }
 
@@ -37,20 +87,26 @@
         display: table-cell;
         width: 45vw;
         padding: 1%;
+        font-size: 16pt;
 
     }
 
-    #receptionservicespictures{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        column-gap: 15px;
-        justify-content: center;
+    .hotelservices, .freeamenities, .extraservices, .receptionSection{
+        font-size: 16pt;
     }
 
-    #receptionservicespictures img{
-        max-width: 100%;
+    .templeattendingpictures p, .receptionsummarypictures p, .servicessummarypictures p, .missionarysummarypictures p{
+        font-size: 16pt;
     }
 
+
+    .missionaryServices h3{
+        font-size: 18pt;
+    }
+    
+    .suiteList{
+        font-size: 16pt;
+    }
 
 
 

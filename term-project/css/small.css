@@ -114,19 +114,22 @@ main{
       width:100%
   }
 
-  .templesummary{
+  .templesummary, .receptionsummary, .servicesAmenities, .missionarysummary{
       display: block;
-      margin-top: 15px;
+      max-width: 80%;
+      margin: auto;
   }
 
 
-  .templeattendingpictures img{
+  .templeattendingpictures img, .receptionsummarypictures img, 
+  .servicessummarypictures img, .missionarysummarypictures img{
       max-width: 100%;
   }
 
-  .templeattendingpictures p{
+  .templeattendingpictures p, .receptionsummarypictures p, .servicessummarypictures p, .missionarysummary p{
       display: block;
       margin-bottom: 15px;
+      font-size: 14pt;
   }
 
 
@@ -156,20 +159,6 @@ main{
   .Picturearea img{
       width:100%
   }
-
-  
-/*#pictures{
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    background-color: #70a9a1;
-}
-
-#pictures img{
-    max-width: 80%;
-    margin: auto;
-    margin-bottom: 15px;
-}*/
 
 #contactNavigation{
     background-color: #1f363d;
@@ -211,11 +200,15 @@ h2{
  
 
     h3{
-        font-size: 24pt;
-    }
+    text-align: center;
+}
 
 fieldset{
     margin: 15px;
+}
+
+#reservationpageheader{
+    font-size: 20pt;
 }
 
 .reservationForm{
@@ -276,6 +269,7 @@ font-size: 12pt;
     margin: auto;
     padding: 30px;
     margin-bottom: 15px;
+    font-size: 14pt;
 }
 
 .extraservices{
@@ -286,6 +280,7 @@ padding: 15px;
 max-width: 50%;
 margin: auto;
 margin-bottom: 15px;
+font-size: 14pt;
 }
 
 
@@ -301,7 +296,7 @@ margin-bottom: 15px;
     color: #c8d5b9;
 }
 
-.receptionSection{
+.receptionSection, .missionaryServices{
     background-color: #1f363d;
     color: whitesmoke;
     display: block;
@@ -312,20 +307,6 @@ margin-bottom: 15px;
     max-width: 80%;
 }
 
-#receptionservicespictures{
-    display: block;
-    margin-top: 15px;
-}
-
-
-#receptionservicespictures img{
-    max-width: 100%;
-}
-
-#receptionservicespictures figcaption{
-    display: block;
-    margin-bottom: 15px;
-}
 
 .contactform form{
     margin: auto;
@@ -333,7 +314,7 @@ margin-bottom: 15px;
 }
 
 legend {
-    font-size: 30pt;
+    font-size: 20pt;
     padding: 5px;
 }
 
