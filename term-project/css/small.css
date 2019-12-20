@@ -124,7 +124,7 @@ main{
       max-width: 100%;
   }
 
-  .templeattendingpictures figcaption{
+  .templeattendingpictures p{
       display: block;
       margin-bottom: 15px;
   }
