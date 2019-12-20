@@ -1,11 +1,55 @@
 @media only screen and (min-width: 34em) {
 
+    .templesummary{
+        display: table;
+        max-width:100%;
+        border-spacing: 5vw 15px;
+        margin: auto;
+    }
+
+    .templesummaryrow{
+        display: table-row;
+    }
+
+    .templeattendingpictures{
+        display:table-cell;
+        width: 45vw;
+        padding: 3%;
+    }
+
+   .templeattendingpictures img{
+        width: 100%;
+   }
 
 
-    #templesPage{
+    .templespage{
+        display: table;
+        max-width:100%;
+        border-spacing: 5vw 15px;
+        margin: auto;
+    }
+
+    .templerow {
+        display: table-row;
+    }
+
+    .templeinformation{
+        display: table-cell;
+        width: 45vw;
+        padding: 1%;
+
+    }
+
+    #receptionservicespictures{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        }
+        grid-template-columns: 50% 50%;
+        column-gap: 15px;
+        justify-content: center;
+    }
+
+    #receptionservicespictures img{
+        max-width: 100%;
+    }
 
 
 

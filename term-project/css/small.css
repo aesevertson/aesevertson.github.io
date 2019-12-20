@@ -114,6 +114,21 @@ main{
       width:100%
   }
 
+  .templesummary{
+      display: block;
+      margin-top: 15px;
+  }
+
+
+  .templeattendingpictures img{
+      max-width: 100%;
+  }
+
+  .templeattendingpictures figcaption{
+      display: block;
+      margin-bottom: 15px;
+  }
+
 
 .pictures1, .pictures2, .pictures3{
     display: flex;
@@ -170,6 +185,7 @@ main{
     text-align: center;
 }
 .templeinformation{
+    display: block;
     background-color: #70a9a1;
     margin: auto;
     margin-bottom: 15px;
@@ -178,7 +194,7 @@ main{
 }
 
 .templeinformation img{
-    max-width: 90%;
+    max-width: 100%;
     display: block;
     margin: auto;
 }
@@ -237,6 +253,7 @@ input{
     margin: auto;
     background-color: #40798c;
     color: whitesmoke;
+    margin-bottom: 15px;
 }
 
 /*.services, .freeamenities, .extraservices{
@@ -254,7 +271,7 @@ font-size: 12pt;
 .hotelservices, .freeamenities{
     background-color: #1f363d;
     color: whitesmoke;
-    max-width: 50%;
+    max-width: 80%;
     display: block;
     margin: auto;
     padding: 30px;
@@ -282,6 +299,32 @@ margin-bottom: 15px;
 
 .extraservices a:hover{
     color: #c8d5b9;
+}
+
+.receptionSection{
+    background-color: #1f363d;
+    color: whitesmoke;
+    display: block;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    max-width: 80%;
+}
+
+#receptionservicespictures{
+    display: block;
+    margin-top: 15px;
+}
+
+
+#receptionservicespictures img{
+    max-width: 100%;
+}
+
+#receptionservicespictures figcaption{
+    display: block;
+    margin-bottom: 15px;
 }
 
 .contactform form{
