@@ -110,10 +110,10 @@ const jsonObject = {
                 console.log(jsObject);
                 let weatherDiv = document.getElementById(temple.weatherDivId);
                 let currentCondition = document.createElement("p");
-                let currentTemp = document.createElement("p");
-                currentCondition.textContent = jsObject.weather[0].description;
-                currentTemp.textContent = jsObject.main.temp.toFixed(0) + " °F";
+                // let currentTemp = document.createElement("p");
+                currentCondition.textContent = jsObject.main.temp.toFixed(0) + " °F " + jsObject.weather[0].description;
+                // currentTemp.textContent = jsObject.main.temp.toFixed(0) + " °F";
                 weatherDiv.appendChild(currentCondition);
-                weatherDiv.appendChild(currentTemp);
+                // weatherDiv.appendChild(currentTemp);
             });
     }

@@ -175,7 +175,7 @@ main{
 }
 .templeinformation{
     display: block;
-    background-color: #70a9a1;
+    background-color: #a0b2a6;
     margin: auto;
     margin-bottom: 15px;
     max-width: 70%;
@@ -366,4 +366,14 @@ footer{
     background-color: #c8d5b9;
     margin-top: 0;
     padding: 15px;
+    font-size: 14pt;
 }
+
+    footer a:link, footer a:visited{
+        color: #1f363d;
+}
+
+footer a:hover, footer a:active{
+color: #40798c;
+}
+
